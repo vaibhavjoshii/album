@@ -2,11 +2,10 @@ package com.example.album.model;
 
 public class Album {
 
-    int albumId;
-    String name, description, coverPicUrl;
+    private int albumId;
+    private String name, description, coverPicUrl;
 
-    public Album(int albumId, String name, String description, String coverPicUrl) {
-        this.albumId = albumId;
+    public Album( String name, String description, String coverPicUrl) {
         this.name = name;
         this.description = description;
         this.coverPicUrl = coverPicUrl;
